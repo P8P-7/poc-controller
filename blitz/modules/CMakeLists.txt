@@ -1,0 +1,3 @@
+add_subdirectory(core)
+add_subdirectory(tank_movement)
+add_subdirectory(wheel_movement)

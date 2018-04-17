@@ -1,0 +1,11 @@
+macro(RequireBoost modules)
+    find_package(Boost
+            COMPONENTS ${modules} REQUIRED)
+    if (Boost_FOUND)
+        include_directories(${Boost_INCLUDE_DIRS})
+        add_definitions(-DBOOST_LOG_DYN_LINK)
+        target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
+    else()
+        message(FATAL_ERROR "Please install Boost")
+    endif()
+endmacro()
