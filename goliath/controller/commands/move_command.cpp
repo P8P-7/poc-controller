@@ -1,8 +1,8 @@
 #include "move_command.h"
 
 
-using namespace blitz::commands;
-using namespace blitz::modules::core;
+using namespace goliath::commands;
+using namespace goliath::core;
 
 move_command::move_command(
         const std::shared_ptr<movement_interface> &movement_interface) : _movement_interface(movement_interface) {

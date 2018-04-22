@@ -12,4 +12,4 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${BIN_OUTPUT_LIBARY})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${BIN_OUTPUT})
 
 add_subdirectory(third_party)
-add_subdirectory(blitz)
+add_subdirectory(goliath)

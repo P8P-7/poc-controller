@@ -1,7 +1,7 @@
 #pragma once
 
 
-namespace blitz::commands {
+namespace goliath::commands {
     class command {
         virtual void execute() =0;
     };
