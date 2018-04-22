@@ -1,5 +1,4 @@
 project(controller)
-include("../../cmake/RequireBoost.CMake")
 
 set(SOURCES_COMMANDS commands/command.h
         commands/move_command.cpp)

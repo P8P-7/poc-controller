@@ -1,5 +1,5 @@
 project(wheel_movement)
-include("../../../cmake/RequireBoost.CMake")
+include(RequireBoost)
 
 set(SOURCE src/wheel_movement.cpp)
 add_library(${PROJECT_NAME} SHARED ${SOURCE})
